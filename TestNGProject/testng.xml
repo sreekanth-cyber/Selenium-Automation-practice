@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Payment Industry">
+  <test name="Credit Card">
+    <classes>
+      <class name="test.Basics2"/>
+      <class name="test.Basics1">
+      <method><exclude name="WebCreditCardMethod2"/></method>
+      </class>
+    </classes>
+  </test>
+  <test name="Debit Card">
+    <classes>  
+      <class name="test.Bascis4"/>
+      <class name="test.Basics3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
