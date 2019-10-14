@@ -1,0 +1,7 @@
+15:29:40.983 [main] ERROR alpha.Demo - Unable to click on button
+15:29:40.991 [main] FATAL alpha.Demo - Fatal error displayed
+15:30:39.958 [main] ERROR beta.Demo1 - Demo1 Unable to click on button
+15:30:39.970 [main] FATAL beta.Demo1 - Demo1 Fatal error displayed
+15:30:39.971 [main] INFO  beta.Demo1 - Demo1 successfully entered username and password
+15:30:39.971 [main] DEBUG beta.Demo1 - Demo1 debug information displayed
+15:33:55.815 [main] ERROR beta.Demo1 - Demo1 Unable to click on button
