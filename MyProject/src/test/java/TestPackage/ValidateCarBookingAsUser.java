@@ -27,6 +27,7 @@ public class ValidateCarBookingAsUser extends base{
 		CarBookingAsExistingUser user = new CarBookingAsExistingUser(driver);
 		user.BookTheCar();
 		
+		log1.info("Successfully verified CarBookingAsExistingUser Page");
 		driver.close();
 	}
 }

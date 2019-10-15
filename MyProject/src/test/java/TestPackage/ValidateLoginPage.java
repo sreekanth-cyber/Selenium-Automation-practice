@@ -24,7 +24,7 @@ public class ValidateLoginPage extends base{
 	}
 	
 	@Test
-	public void CheckHomePage() throws Exception
+	public void CheckLoginPage() throws Exception
 	{
 		HomePage v = new HomePage(driver);
 		LoginUser l = new LoginUser(driver);
@@ -36,6 +36,6 @@ public class ValidateLoginPage extends base{
 		LogOut lo = new LogOut(driver);
 		lo.BackToHomePage();
 		
-		log1.info("Successfully verified myaccount button");
+		log1.info("Successfully verified Login Page");
 	}
 }

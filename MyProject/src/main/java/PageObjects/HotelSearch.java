@@ -7,8 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
-
 import resources.base;
 
 public class HotelSearch extends base{
@@ -33,7 +31,6 @@ public class HotelSearch extends base{
 		this.driver = driver;
 	}
 	
-	@Test
 	public void Search() throws IOException, InterruptedException
 	{
 		prop = new Properties();

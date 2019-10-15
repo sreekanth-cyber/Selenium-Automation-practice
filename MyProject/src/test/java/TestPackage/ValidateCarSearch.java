@@ -21,6 +21,8 @@ public class ValidateCarSearch extends base{
 	{
 		CarSearch c = new CarSearch(driver);
 		c.Search();
+		
+		log1.info("Successfully verified CarSearch Page");
 		driver.close();
 	}
 }

@@ -21,6 +21,8 @@ public class ValidateHotelSearch extends base{
 	{
 		HotelSearch h = new HotelSearch(driver);
 		h.Search();
+		
+		log1.info("Successfully verified HotelSearch Page");
 		driver.close();
 	}
 }

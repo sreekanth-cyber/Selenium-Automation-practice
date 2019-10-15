@@ -27,6 +27,7 @@ public class ValidateCarBookingAsGuest extends base{
 		CarBookingAsGuest guest = new CarBookingAsGuest(driver);
 		guest.BookTheCar();
 		
+		log1.info("Successfully verified CarBookingAsGuest Page");
 		driver.close();
 	}
 }
