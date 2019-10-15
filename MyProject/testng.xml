@@ -3,10 +3,12 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="TestPackage.ValidateHomePage"/>
+      <class name="TestPackage.ValidateCarBookingAsUser"/>
+      <class name="TestPackage.ValidateLoginPage"/>
+      <class name="TestPackage.ValidateSignUpPage"/>
+      <class name="TestPackage.ValidateHotelSearch"/>
       <class name="TestPackage.ValidateCarSearch"/>
       <class name="TestPackage.ValidateCarBookingAsGuest"/>
-      <class name="TestPackage.ValidateCarBookingAsUser"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
